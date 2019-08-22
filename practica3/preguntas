@@ -1,0 +1,12 @@
+¿Qué sucede con la cantidad de memoria ocupada en el monitor de sistema?
+Aumenta conforme se ocupan màs espacios en el arreglo de enteros
+
+¿Qué pasa si no se llama al método que inicializa el arreglo de enteros? ¿Por qué?
+No se reserva el espacio en memoria necesario para los elementos porque nada màs se està declarando que existirà un arreglo.
+
+¿Qué sucede con la memoria si se llama dos o más veces a ejecutar la función pruebaClase()?
+Sigue aumentando la cantidad de memoria utilizada
+
+¿Qué sucede con la memoria si en el programa primero requiero un arreglo de cien millones de
+elementos y después solo necesito un arreglo con cien elementos?
+Se mantiene ocupada la cantidad de memoria necesaria para guardar cien millones de elementos.
